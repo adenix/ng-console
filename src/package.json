@@ -1,0 +1,28 @@
+{
+  "name": "@adenix/ng-console",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adenix/ng-console.git"
+  },
+  "author": {
+    "name": "Austin Nicholas",
+    "email": "austin@adenix.io"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adenix/ng-console.git/issues"
+  },
+  "main": "ng-console.umd.js",
+  "module": "ng-console.js",
+  "jsnext:main": "ng-console.js",
+  "typings": "ng-console.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

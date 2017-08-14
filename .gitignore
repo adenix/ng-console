@@ -1,0 +1,46 @@
+# Build files
+dist
+docs
+/tmp
+/out-tsc
+
+# Node
+node_modules
+npm-debug.log
+
+# TypeScript
+src/*.js
+src/*.map
+src/*.d.ts
+
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+yarn-error.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Ngc generated files
+**/*.ngfactory.ts

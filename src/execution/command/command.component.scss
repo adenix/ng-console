@@ -1,0 +1,16 @@
+@import '../../colors';
+
+ax-console-command {
+  position: relative;
+  display: block;
+  margin-left: 1em;
+  color: #fff;
+
+  &:before {
+    content: "#";
+    color: $light-blue;
+    padding-right: .75em;
+    position: absolute;
+    left: -1.25em;
+  }
+}

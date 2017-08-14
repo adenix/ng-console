@@ -1,0 +1,44 @@
+ax-console-return {
+  position: relative;
+  display: block;
+  margin-top: .5em;
+  margin-left: 2.25em;
+
+  &:before {
+    content: "$";
+    padding: 0 .75em 0 1.25em;
+    position: absolute;
+    left: -2.50em;
+  }
+
+  ul {
+    display: inline;
+    list-style: none inside;
+    padding: 0;
+    margin: 0;
+
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
+
+    li {
+      display: inline;
+      list-style: none inside;
+      margin: 0;
+      padding: 0;
+
+      &:before {
+        content: "'";
+      }
+      &:after {
+        content: "'";
+      }
+      &:not(:last-child):after {
+        content: "', ";
+      }
+    }
+  }
+}

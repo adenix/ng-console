@@ -1,0 +1,38 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+ax-console {
+  position: relative;
+  display: block;
+  font-family: 'Anonymous Pro', monospace;
+  overflow: hidden;
+
+  background: $off-black;
+  color: $off-white;
+  box-sizing: border-box;
+  border-top: 1.5em solid $light-grey;
+  border-radius: .5em;
+  padding: 1.5em;
+
+  &[shadow] {
+    box-shadow: 5px 10px 50px #000;
+  }
+
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $light-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
