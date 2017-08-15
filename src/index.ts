@@ -10,6 +10,7 @@ export * from './console.component';
 export * from './execution/execution.component';
 export * from './execution/command/command.component';
 export * from './execution/return/return.component';
+export * from './console.model';
 
 @NgModule({
   imports: [
